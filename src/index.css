@@ -51,26 +51,25 @@
 .home-subtitulo {
   align-items: center;
   box-sizing: border-box;
-  color: rgb(33, 37, 41);
+  color: rgb(84, 84, 84);
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   justify-content: center;
   line-height: 40px;
   text-align: left;
+  font-family: "NeurialGrotesk-light.otf";
 }
 
 /* GLITCH */ /*# sourceMappingURL=index.css.map */
 
 .glitch {
   font-weight: 700;
-
   position: relative;
-
+  color: #080a0d;
   text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
     -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
     0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
-
   animation: glitch 500ms infinite;
   z-index: 1;
 }
@@ -147,4 +146,10 @@
     transition-duration: 0s !important;
     transition-delay: 0s !important;
   }
+}
+
+.test {
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
 }

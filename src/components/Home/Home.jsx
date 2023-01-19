@@ -5,27 +5,27 @@ import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 const Home = () => {
   return (
     <div className="text-center">
-      <div className="grid md:max-w-[1270px] w-full h-full justify-center items-center mx-auto bg-[#FFFDFC]">
-        <div className="mt-20">
-          <div className="flex mx-auto glitch home-titulo text-6xl mb-10 text-start">
+      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8">
+        <div className="">
+          <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center mb-10">
             <h1 className="glitch">
               <span aria-hidden="true">Javier Cavalli . FrontDev</span>
               Javier Cavalli . FrontDev
               <span aria-hidden="true">Javier Cavalli . FrontDev</span>
             </h1>
           </div>
-          <p className="home-subtitulo text-1xl mb-5">
-            Frontend developer, UX architect and Javascript engineer,
+          <p className="home-subtitulo mb-5 p-3">
+            Frontend developer, Diseñador de UX/UI y Ingeniero de JavaScript,
             Photochromic Lens enthusiast, practicing minimalist, and Pop Music &
             Jazz lover in search of flow.
           </p>
-          <p className="home-subtitulo text-1xl mb-5">
+          <p className="home-subtitulo mb-5 p-3">
             Working with my hands to make magic happen on the internet. View my
             Projects, Articles, Resumé, Contact Me, or send me an email at
             hellocodewonders@gmail.com.
           </p>
-          <p className="home-subtitulo text-1xl mb-5">Mas de mi</p>
-          <ul className="flex">
+          <p className="home-subtitulo text-1xl mb-5 p-3">Contacto / CV</p>
+          <ul className="flex justify-center mb-4">
             <li className="mr-4">
               <FaLinkedinIn size="25px" />
             </li>

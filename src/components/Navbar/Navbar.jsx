@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     /* MEMU */
-    <div className="flex w-full h-full py-2 px-3 justify-between md:justify-around bg-[#ffffff] text-[#000000]">
+    <div className="flex w-full h-full mt-2 px-3 justify-between md:justify-around bg-[#ffffff] text-[#000000]">
       <a href="/" className="titulo text-4xl">
         JC.
       </a>
