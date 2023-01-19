@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     /* MEMU */
-    <div className="fixed w-full h-[100px] py-20 flex justify-evenly items-center bg-[#FFFDFC] text-[#000000]">
+    <div className="flex w-full h-full py-2 px-3 justify-between md:justify-around bg-[#ffffff] text-[#000000]">
       <a href="/" className="titulo text-4xl">
         JC.
       </a>
@@ -34,7 +34,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-20">
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center z-10"
         }
       >
         <li className="py-6 text-4xl">

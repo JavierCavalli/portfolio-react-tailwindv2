@@ -5,11 +5,15 @@ import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 const Home = () => {
   return (
     <div className="text-center">
-      <div className="grid max-w-[1270px] w-full h-screen justify-center items-center mx-auto bg-[#FFFDFC]">
-        <div className="mb-20">
-          <p className="home-titulo text-7xl mb-10 text-start">
-            Javier Cavalli . FrontDev
-          </p>
+      <div className="grid md:max-w-[1270px] w-full h-full justify-center items-center mx-auto bg-[#FFFDFC]">
+        <div className="mt-20">
+          <div className="flex mx-auto glitch home-titulo text-6xl mb-10 text-start">
+            <h1 className="glitch">
+              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
+              Javier Cavalli . FrontDev
+              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
+            </h1>
+          </div>
           <p className="home-subtitulo text-1xl mb-5">
             Frontend developer, UX architect and Javascript engineer,
             Photochromic Lens enthusiast, practicing minimalist, and Pop Music &
