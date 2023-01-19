@@ -7,7 +7,7 @@ const Home = () => {
     <div className="text-center">
       <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8">
         <div className="">
-          <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center mb-10">
+          <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center mb-5 p-3">
             <h1 className="glitch">
               <span aria-hidden="true">Javier Cavalli . FrontDev</span>
               Javier Cavalli . FrontDev
