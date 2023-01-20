@@ -17,9 +17,9 @@ const Projects = () => {
       <div className="grid md:max-w-[1000px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
-            <h1 className="">Proyectos</h1>
+            <h1 className="">Proyectos.</h1>
           </div>
-          <div className="grid grid-cols-1 md:gap-8 p-4 md:grid-cols-2 gap-y-8">
+          <div className="grid grid-cols-1 md:gap-8 p-4 md:grid-cols-2 2xl:grid-cols-3 gap-y-8">
             {/* PROYECTO 1 */}
             <Card
               title="E-Commerce"

@@ -1,10 +1,11 @@
 import React from "react";
+import Social from "../SocialIcons/Social";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <div className="text-center">
+    <div className="text-center 2xl:mt-28">
       <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
@@ -42,23 +43,7 @@ const Home = () => {
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
           </div>
-          <ul className="flex justify-center mb-2 md:justify-start p-3">
-            <li className="mr-4">
-              <FaLinkedinIn size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaGithub size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaInstagram size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineMail size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineFileText size="25px" />
-            </li>
-          </ul>
+          <Social />
         </div>
       </div>
     </div>

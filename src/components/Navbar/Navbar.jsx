@@ -16,7 +16,7 @@ const Navbar = () => {
       </a>
 
       {/* menu */}
-      <ul className="hidden md:flex font-semibold">
+      <ul className="hidden md:flex">
         <li className="px-4 cursor-pointer text-[25px]">
           <Link to="/">Inicio</Link>
         </li>

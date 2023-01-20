@@ -56,7 +56,7 @@
   font-size: 20px;
   font-weight: 400;
   justify-content: center;
-  line-height: 40px;
+  line-height: 35px;
   text-align: left;
   font-family: "NeurialGrotesk-light.otf";
 }
@@ -187,4 +187,7 @@
   }
 }
 
-/* PROYECTOS */
+.bold-text {
+  font-family: "NeurialGrotesk-extrabold.otf";
+  color: #000;
+}
