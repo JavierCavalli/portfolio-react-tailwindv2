@@ -1,64 +1,61 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
+import project1 from "../../assets/project1.png";
 
 const Projects = () => {
   return (
     <div className="text-center">
-      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
+      <div className="grid md:max-w-[1000px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
-          <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
-            <h1 className="glitch">
-              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
-              Javier Cavalli . FrontDev
-              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
-            </h1>
+          <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
+            <h1 className="">Proyectos</h1>
           </div>
-          <p className="home-subtitulo mb-5 p-3">
-            Frontend developer, Diseñador de UX/UI y Ingeniero de JavaScript,
-            Photochromic Lens enthusiast, practicing minimalist, and Pop Music &
-            Jazz lover in search of flow.
-          </p>
-          <p className="home-subtitulo mb-5 p-3">
-            Working with my hands to make magic happen on the internet. View my
-            Projects, Articles, Resumé, Contact Me, or send me an email at
-            hellocodewonders@gmail.com.
-          </p>
-          <div className="flex">
-            <a
-              href="about"
-              className="home-subtitulo text-1xl mb-5 p-3 underline my-4"
-            >
-              Mas Sobre Mi
+          <div className="grid grid-cols-1 md:gap-16 p-4 md:grid-cols-2">
+            {/* PROYECTO 1 */}
+            <a href="/" class="group relative block bg-black">
+              <img
+                alt="Developer"
+                src={project1}
+                class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+              />
+
+              <div class="relative p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-[#FFFFFF]">
+                  E-Commerce
+                </p>
+
+                <p class="text-2xl font-bold text-white">Store</p>
+
+                <div class="mt-64">
+                  <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <a href="https://github.com/JavierCavalli/clothingapp-react">
+                      <button
+                        type="button"
+                        class=" inline-block px-6 py-2.5 bg-[#FFFFFF] text-[#000000] font-bold text-xs leading-tight uppercase rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out m-2"
+                      >
+                        {" "}
+                        GITHUB
+                      </button>
+                    </a>
+                    <a href="https://gilded-brioche-5ea112.netlify.app/">
+                      <button
+                        type="button"
+                        class=" inline-block px-6 py-2.5 bg-[#FFFFFF] text-[#000000] font-bold text-xs leading-tight uppercase rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out m-2"
+                      >
+                        {" "}
+                        DEMO
+                      </button>
+                    </a>
+                    <p class="text-sm text-white">
+                      E-Commerce para la compra venta de vestimenta.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </a>
-            <svg
-              width="24"
-              height="24"
-              xmlns="http://www.w3.org/2000/svg"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              className="my-auto arrow-right"
-            >
-              <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
-            </svg>
+            {/* PROYECTO 1 FIN */}
           </div>
-          <ul className="flex justify-center mb-2 md:justify-start p-3">
-            <li className="mr-4">
-              <FaLinkedinIn size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaGithub size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaInstagram size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineMail size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineFileText size="25px" />
-            </li>
-          </ul>
         </div>
       </div>
     </div>

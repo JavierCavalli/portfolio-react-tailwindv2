@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <div className="home-subtitulo mb-5 pl-3">
             <ul className="text-start 2xl:text-end">
-              <li>-Diplomatura web full stack ReactJS y SQL -UTN</li>
+              <li>-Diplomatura full stack ReactJS y SQL -UTN</li>
               <li>-Complete web development Bootcamp - Udemy Angela Yu</li>
               <li>-Complete Javascript Course - Udemy Jonas Schmedtmann</li>
               <li>
