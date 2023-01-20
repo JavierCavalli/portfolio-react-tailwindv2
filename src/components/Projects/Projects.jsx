@@ -87,6 +87,41 @@ const Projects = () => {
             />
             {/* PROYECTO 1 FIN */}
           </div>
+          <div className="flex">
+            <a
+              href="Contacto"
+              className="home-subtitulo text-1xl mb-5 pl-4 mr-3 underline my-4"
+            >
+              Contacto
+            </a>
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              className="my-auto arrow-right"
+            >
+              <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+            </svg>
+          </div>
+          <ul className="flex justify-center mb-2 md:justify-start p-3 2xl:justify-center">
+            <li className="mr-4">
+              <FaLinkedinIn size="25px" />
+            </li>
+            <li className="mx-4">
+              <FaGithub size="25px" />
+            </li>
+            <li className="mx-4">
+              <FaInstagram size="25px" />
+            </li>
+            <li className="mx-4">
+              <AiOutlineMail size="25px" />
+            </li>
+            <li className="mx-4">
+              <AiOutlineFileText size="25px" />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
