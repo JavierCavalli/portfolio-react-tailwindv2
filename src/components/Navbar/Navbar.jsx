@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Hamburger from "hamburger-react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
   const [isOpen, setOpen] = useState(false);
+
+  const handleClick = () => setNav(!nav);
 
   return (
     /* MEMU */
-    <div className="flex w-full h-full mt-2 px-3 justify-between md:justify-around bg-[#ffffff] text-[#000000]">
+    <div className="flex w-full h-full mt-2 px-3 justify-between md:justify-around md:mt-8 bg-[#ffffff] text-[#000000]">
       <a href="/" className="titulo text-4xl">
         JC.
       </a>
@@ -17,19 +18,16 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex font-semibold">
         <li className="px-4 cursor-pointer text-[25px]">
-          <Link to="/">Home</Link>
+          <Link to="/">Inicio</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px]">
-          <Link to="about">About</Link>
+          <Link to="about">Sobre mi</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px]">
-          <Link to="skills">Skills</Link>
+          <Link to="proyectos">Proyectos</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px]">
-          <Link to="work">Work</Link>
-        </li>
-        <li className="px-4 cursor-pointer text-[25px]">
-          <Link to="contact">Contact</Link>
+          <Link to="contact">Contacto</Link>
         </li>
       </ul>
 
@@ -48,31 +46,25 @@ const Navbar = () => {
       >
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="/">
-            Home
+            Inicio
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="about">
-            About
+            Sobre mi
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="skills">
-            Skills
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="work">
-            Work
+          <Link onClick={handleClick} to="proyectos">
+            Proyectos
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="contact">
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>

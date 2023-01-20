@@ -153,3 +153,36 @@
   align-items: center;
   text-align: center !important;
 }
+
+/* ABOUT */
+
+.home-subtitulo-titulo {
+  font-family: "NeurialGrotesk-bold.otf";
+}
+
+.home-subtitulo-sub {
+  font-family: "NeurialGrotesk-medium.otf";
+  font-size: 16px;
+}
+
+.arrow-right {
+  animation: moveArrow 1s alternate-reverse infinite;
+}
+
+@keyframes moveArrow {
+  from {
+    transform: translateX(30px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes moveDown {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
