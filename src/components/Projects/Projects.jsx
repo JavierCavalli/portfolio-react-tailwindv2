@@ -81,8 +81,8 @@ const Projects = () => {
               title="Dark/Light"
               subtitle="Mode"
               img={project8}
-              github="https://github.com/JavierCavalli/Landing-page-brand"
-              demo="https://landing-page-brand.vercel.app/"
+              github="https://github.com/JavierCavalli/dark-theme-main"
+              demo="https://spontaneous-travesseiro-fade16.netlify.app/"
               text="Toggle de modo dark y light"
             />
             {/* PROYECTO 1 FIN */}
