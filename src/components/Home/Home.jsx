@@ -1,12 +1,10 @@
 import React from "react";
 import Social from "../SocialIcons/Social";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <div className="text-center 2xl:mt-28">
-      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-12 md:mt-12">
+    <div className="text-center 2xl:mt-4 overflow-hidden">
+      <div className="grid md:max-w-[900px] 2xl:h-full w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
             <h1 className="glitch">

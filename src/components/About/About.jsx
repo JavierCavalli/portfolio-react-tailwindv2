@@ -61,7 +61,7 @@ const About = () => {
           <p className="home-subtitulo-sub pl-3 text-start underline">
             Tecnologias que uso con frecuencia{" "}
           </p>
-          <div className="text-base test-start grid pl-3 mb-4">
+          <div className="text-base test-start grid pl-3 ">
             <div className="row flex gap-4">
               <div className="col flex ">
                 <SiReact className="mt-1" />
@@ -137,7 +137,9 @@ const About = () => {
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
           </div>
-          <Social />
+          <div className="flex justify-center">
+            <Social />
+          </div>
         </div>
       </div>
     </div>
