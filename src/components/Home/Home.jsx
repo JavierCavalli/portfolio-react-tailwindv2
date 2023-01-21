@@ -6,7 +6,7 @@ import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 const Home = () => {
   return (
     <div className="text-center 2xl:mt-28">
-      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
+      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-12 md:mt-12">
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
             <h1 className="glitch">
@@ -43,7 +43,9 @@ const Home = () => {
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
           </div>
-          <Social />
+          <div className="mt-2">
+            <Social />
+          </div>
         </div>
       </div>
     </div>

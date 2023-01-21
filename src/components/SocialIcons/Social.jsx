@@ -4,7 +4,7 @@ import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 
 const Social = () => {
   return (
-    <ul className="flex justify-center mb-2 md:justify-start p-3">
+    <ul className="flex justify-center md:justify-start p-3">
       <li className="mr-4">
         <FaLinkedinIn size="25px" />
       </li>
