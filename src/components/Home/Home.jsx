@@ -14,17 +14,30 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            Frontend developer, Diseñador UX/UI y Ingeniero de JavaScript, con
-            tres años de experiencia implementando aplicaciones Web. Me
-            especializo en en JavaScript, principalmente en el framework
+            Frontend developer, Diseñador UX/UI y Ingeniero JavaScript, con tres
+            años de experiencia implementando aplicaciones Web. Me especializo
+            en en JavaScript y TypeScript, principalmente en el framework
             React(tambien NextJS), para los estilos se usar CSS, SASS,
-            Bootstrap, Tailwind y librerias de animacion como FramerMotion Y
-            GSAP.
+            Bootstrap, Tailwind, librerias de animacion como FramerMotion Y GSAP
+            y para el maquetado/diseño de las mismas Figma.
           </p>
           <p className="home-subtitulo mb-2 p-3">
-            Working with my hands to make magic happen on the internet. View my
-            Projects, Articles, Resumé, Contact Me, or send me an email at
-            hellocodewonders@gmail.com.
+            De momento me encuentro aprendiendo Backend SQL y
+            noSQL(firebase/mongo) Avanzado y animaciones complejas con GSAP, los
+            invito a ver algunos de mis{" "}
+            <a href="proyectos">
+              <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
+                Proyectos
+              </button>
+            </a>{" "}
+            mi{" "}
+            <a href="proyectos">
+              <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
+                Contacto
+              </button>
+            </a>{" "}
+            o mandarme un Mail a{" "}
+            <b className="bold-text-2">javier.cavalli@gmail.com</b>
           </p>
           <div className="flex">
             <a

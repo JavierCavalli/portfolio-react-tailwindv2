@@ -12,8 +12,8 @@ const Contact = () => {
             <h1 className="">Contacto.</h1>
           </div>
           <p className="home-subtitulo mb-5 p-3 ">
-            Para contactarte conmigo me podes mandar un mensaje por aca o
-            mandarme un mail a{" "}
+            Para contactarte conmigo me podes mandar un mensaje en esta sección
+            o mandarme un mail a{" "}
             <span className="bold-text">javier.cavalli@gmail.com</span>
           </p>
           {/* ACA ARRANCA EL FORM */}

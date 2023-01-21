@@ -29,13 +29,13 @@ const About = () => {
             <a href="https://github.com/JavierCavalli">Ver Github</a>
           </p>
           <p className="home-subtitulo mb-5 pl-3 pr-3 2xl:w-[1000px]">
-            Arranque a trabjar como freelance hace casi 2 años haciendo SPA con
-            el stack FERN/MERN en plataformas como Fiverr y Upwork, hoy me
-            encuentro trabajando para FitPrenda una empresa de talles argentina,
-            me ocupo del frontend en el cual uso principalmente <b>React</b>,{" "}
-            <b>Typescript</b>, <b>Bootstrap</b> y <b>CSS</b>. Me encuentro
-            actualmente buscando nuevos desafios y estudiando nuevas
-            tecnologias.
+            Empecé a trabjar como freelance hace 2 años haciendo SPA con el
+            stack FERN/MERN en las plataformas Fiverr y Upwork, hoy me encuentro
+            trabajando para FitPrenda una empresa de talles argentina donde me
+            ocupo del frontend en la cual uso principalmente <b>React</b>,{" "}
+            <b>Typescript</b>, <b>Bootstrap</b> y <b>CSS</b>. Estoy buscando
+            nuevos desafios y estudiando nuevas tecnologias para seguir
+            formandome.
           </p>
           <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-end">
             Estudios
@@ -45,7 +45,7 @@ const About = () => {
           </p>
           <div className="home-subtitulo mb-5 pl-3">
             <ul className="text-start 2xl:text-end">
-              <li>-Diplomatura full stack ReactJS y SQL -UTN</li>
+              <li>-Diplomatura full stack ReactJS y SQL - UTN</li>
               <li>-Complete web development Bootcamp - Udemy Angela Yu</li>
               <li>-Complete Javascript Course - Udemy Jonas Schmedtmann</li>
               <li>
