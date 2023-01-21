@@ -21,7 +21,7 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            Frontend developer, Diseñador UX/UI y Ingeniero JavaScript, con tres
+            Frontend developer, Diseñador UX/UI y Ingeniero JavaScript, con dos
             años de experiencia implementando aplicaciones Web. Me especializo
             en en JavaScript y TypeScript, principalmente en el framework
             React(tambien NextJS), para los estilos se usar CSS, SASS,
