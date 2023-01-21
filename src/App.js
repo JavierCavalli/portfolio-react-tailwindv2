@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (

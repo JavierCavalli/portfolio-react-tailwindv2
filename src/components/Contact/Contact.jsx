@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
+import Social from "../SocialIcons/Social";
 
 const Contact = () => {
   return (
@@ -75,23 +76,9 @@ const Contact = () => {
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
           </div>
-          <ul className="flex justify-center mb-2 md:justify-start p-3">
-            <li className="mr-4">
-              <FaLinkedinIn size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaGithub size="25px" />
-            </li>
-            <li className="mx-4">
-              <FaInstagram size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineMail size="25px" />
-            </li>
-            <li className="mx-4">
-              <AiOutlineFileText size="25px" />
-            </li>
-          </ul>
+          <div className="mb-4">
+            <Social />
+          </div>
         </div>
       </div>
     </div>

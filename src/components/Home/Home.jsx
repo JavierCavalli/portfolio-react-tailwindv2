@@ -4,7 +4,7 @@ import Social from "../SocialIcons/Social";
 const Home = () => {
   return (
     <div className="text-center 2xl:mt-4 2xl:overflow-hidden">
-      <div className="grid md:max-w-[900px] 2xl:h-full w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
+      <div className="grid md:max-w-[900px] 2xl:h-full w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12 2xl:mt-24">
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
             <h1 className="glitch">
@@ -14,14 +14,12 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            Frontend developer, Diseñador de UX/UI y Ingeniero de JavaScript,
-            Photochromic Lens enthusiast, practicing minimalist, and Pop Music &
-            Jazz lover in search of flow.
-          </p>
-          <p className="home-subtitulo mb-2 p-3">
-            Working with my hands to make magic happen on the internet. View my
-            Projects, Articles, Resumé, Contact Me, or send me an email at
-            hellocodewonders@gmail.com.
+            Frontend developer, Diseñador UX/UI y Ingeniero de JavaScript, con
+            tres años de experiencia implementando aplicaciones Web. Me
+            especializo en en JavaScript, principalmente en el framework
+            React(tambien NextJS), para los estilos se usar CSS, SASS,
+            Bootstrap, Tailwind y librerias de animacion como FramerMotion Y
+            GSAP.
           </p>
           <p className="home-subtitulo mb-2 p-3">
             Working with my hands to make magic happen on the internet. View my

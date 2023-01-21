@@ -1,26 +1,27 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 
 const Social = () => {
   return (
-    <ul className="flex w-full h-full justify-center md:justify-start p-3">
-      <li className="mr-4">
-        <FaLinkedinIn size="25px" />
-      </li>
-      <li className="mx-4">
-        <FaGithub size="25px" />
-      </li>
-      <li className="mx-4">
-        <FaInstagram size="25px" />
-      </li>
-      <li className="mx-4">
-        <AiOutlineMail size="25px" />
-      </li>
-      <li className="mx-4">
-        <AiOutlineFileText size="25px" />
-      </li>
-    </ul>
+    <div class="flex-center">
+      <a href="https://github.com/JavierCavalli">
+        <i class="fa fa-github fa-lg icon-3d"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/javier-cavalli-050734228/">
+        <i
+          class="fa fa-linkedin
+       fa-lg icon-3d"
+        ></i>
+      </a>
+      <a href="https://www.instagram.com/javifcava/">
+        <i class="fa fa-instagram fa-lg icon-3d"></i>
+      </a>
+      <a href="mailto:javier.cavalli@gmail.com">
+        <i class="fas fa-regular fa-envelope fa-lg icon-3d"></i>
+      </a>
+      <a href="https://www.docdroid.net/YHEo9gR/cv-javier-cavalli-pdf">
+        <i class="fas fa-solid fa-file-pdf fa-lg icon-3d"></i>
+      </a>
+    </div>
   );
 };
 

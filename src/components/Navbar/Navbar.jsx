@@ -17,16 +17,16 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li className="px-4 cursor-pointer text-[25px]">
+        <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
           <Link to="/">Inicio</Link>
         </li>
-        <li className="px-4 cursor-pointer text-[25px]">
+        <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
           <Link to="about">Sobre mi</Link>
         </li>
-        <li className="px-4 cursor-pointer text-[25px]">
+        <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
           <Link to="proyectos">Proyectos</Link>
         </li>
-        <li className="px-4 cursor-pointer text-[25px]">
+        <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
           <Link to="contact">Contacto</Link>
         </li>
       </ul>

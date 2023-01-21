@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* .container-asd {
   margin-left: 40px;
 } */
-
 @font-face {
   font-family: "NeurialGrotesk-Regular";
   src: url("fonts/NeurialGrotesk-Regular.otf") format("opentype");
@@ -22,7 +20,6 @@
   font-family: "NeurialGrotesk-Extrabold.otf";
   src: url("fonts/NeurialGrotesk-Extrabold.otf") format("opentype");
 }
-
 :root {
   --background: #ffffff;
   --text-primary: #000;
@@ -54,13 +51,218 @@
 .home-subtitulo {
   align-items: center;
   box-sizing: border-box;
-  color: rgb(33, 37, 41);
+  color: rgb(84, 84, 84);
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   justify-content: center;
-  line-height: 40px;
+  line-height: 35px;
   text-align: left;
+  font-family: "NeurialGrotesk-light.otf";
 }
 
-/* GLITCH */
+/* GLITCH */ /*# sourceMappingURL=index.css.map */
+
+.glitch {
+  font-weight: 700;
+  position: relative;
+  color: #080a0d;
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  animation: glitch 500ms infinite;
+  z-index: 1;
+}
+
+.glitch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch 500ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-0.025em, -0.0125em);
+  /* color: green; */
+  opacity: 0.8;
+}
+
+.glitch span:last-child {
+  animation: glitch 275ms infinite;
+  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+  transform: translate(0.0125em, 0.025em);
+  /* color: red; */
+  opacity: 0.8;
+}
+
+/* https://web.dev/prefers-reduced-motion/#(bonus)-forcing-reduced-motion-on-all-websites */
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(244, 67, 54, 1),
+      -0.05em -0.025em 0 rgba(145, 250, 145, 0.75),
+      -0.025em 0.05em 0 rgba(33, 150, 243, 1);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(244, 67, 54, 1),
+      -0.05em -0.025em 0 rgba(145, 250, 145, 0.75),
+      -0.025em 0.05em 0 rgba(33, 150, 243, 1);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(244, 67, 54, 1),
+      0.025em 0.025em 0 rgba(145, 250, 145, 0.75),
+      -0.05em -0.05em 0 rgba(33, 150, 243, 1);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(244, 67, 54, 1),
+      0.025em 0.025em 0 rgba(145, 250, 145, 0.75),
+      -0.05em -0.05em 0 rgba(33, 150, 243, 1);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(244, 67, 54, 1),
+      0.05em 0 0 rgba(145, 250, 145, 0.75), 0 -0.05em 0 rgba(33, 150, 243, 1);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(244, 67, 54, 1),
+      0.05em 0 0 rgba(145, 250, 145, 0.75), 0 -0.05em 0 rgba(33, 150, 243, 1);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(244, 67, 54, 1),
+      -0.025em -0.025em 0 rgba(145, 250, 145, 0.75),
+      -0.025em -0.05em 0 rgba(33, 150, 243, 1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+.test {
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+}
+
+/* ABOUT */
+
+.home-subtitulo-titulo {
+  font-family: "NeurialGrotesk-bold.otf";
+  font-size: 22px;
+}
+
+.home-subtitulo-sub {
+  font-family: "NeurialGrotesk-medium.otf";
+  font-size: 16px;
+}
+
+.arrow-right {
+  animation: moveArrow 1s alternate-reverse infinite;
+}
+
+@keyframes moveArrow {
+  from {
+    transform: translateX(30px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes moveDown {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bold-text {
+  font-family: "NeurialGrotesk-extrabold.otf";
+  color: #000;
+}
+
+/* SOCIAL ANIMATION */
+
+$redColor: rgba(244, 67, 54, 1);
+$blueColor: rgba(33, 150, 243, 1);
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 300ms 10;
+  animation: icon3d 300ms 10;
+  color: rgb(0, 0, 0);
+  &:hover {
+    -webkit-animation: icon3d 300ms infinite;
+    animation: icon3d 300ms infinite;
+  }
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 2px 2px $redColor, -2px -2px $blueColor;
+  }
+  25% {
+    text-shadow: 2px -3px $redColor, 2px 2px $blueColor;
+  }
+  50% {
+    text-shadow: 2px -2px $redColor, -4px 2px $blueColor;
+  }
+  75% {
+    text-shadow: -4px -2px $redColor, -2px -2px $blueColor;
+  }
+  100% {
+    text-shadow: -2px 0 $redColor, 2px -2px $blueColor;
+  }
+}
+
+/* UNDERLINE NAVBAR ANIMATION */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: right left;
+  transition: transform 0.3s ease;
+}
+
+.hover-underline-animation:hover::before {
+  transform: scaleX(1);
+}
