@@ -1,7 +1,5 @@
 import React from "react";
 import Social from "../SocialIcons/Social";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 import {
   SiReact,
   SiTailwindcss,
@@ -13,10 +11,17 @@ import { DiCss3, DiSass } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { FiFramer, FiFigma } from "react-icons/fi";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="text-center">
+    <motion.div
+      className="text-center"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
@@ -119,20 +124,17 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
-            <a
-              href="proyectos"
-              className="home-subtitulo text-1xl mb-5 p-3 underline my-4"
-            >
+          <div className="flex text-1xl mb-2 p-3 underline my-2">
+            <Link to="/proyectos" className="mr-3">
               Ver Proyectos
-            </a>
+            </Link>
             <svg
               width="24"
               height="24"
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
-              className="my-auto arrow-right"
+              className="my-auto arrow-right mt-[5px]"
             >
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
@@ -142,7 +144,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,11 +1,16 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 import Social from "../SocialIcons/Social";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="text-center 2xl:overflow-none">
+    <motion.div
+      className="text-center 2xl:overflow-none"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="grid md:max-w-[900px] w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-4 p-3 2xl:justify-start ">
@@ -58,20 +63,17 @@ const Contact = () => {
             </form>
           </div>
           {/* ACA TERMINA EL FORM */}
-          <div className="flex">
-            <a
-              href="/"
-              className="home-subtitulo text-1xl mb-5 p-3 underline my-4"
-            >
+          <div className="flex text-1xl mb-2 p-4 underline my-2">
+            <Link to="/" className="mr-3">
               Inicio
-            </a>
+            </Link>
             <svg
               width="24"
               height="24"
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
-              className="my-auto arrow-right"
+              className="my-auto arrow-right mt-[5px]"
             >
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
@@ -81,7 +83,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

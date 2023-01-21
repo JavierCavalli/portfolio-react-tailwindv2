@@ -11,10 +11,17 @@ import project7 from "../../assets/project7.png";
 import project8 from "../../assets/project8.png";
 import Card from "../Card/Card";
 import Social from "../SocialIcons/Social";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="text-center">
+    <motion.div
+      className="text-center"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="grid md:max-w-[1000px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
@@ -88,20 +95,17 @@ const Projects = () => {
             />
             {/* PROYECTO 1 FIN */}
           </div>
-          <div className="flex">
-            <a
-              href="Contacto"
-              className="home-subtitulo text-1xl mb-5 pl-4 mr-3 underline my-4"
-            >
-              Contacto
-            </a>
+          <div className="flex text-1xl mb-2 p-4 underline my-2">
+            <Link to="/contact" className="mr-3">
+              Ver Proyectos
+            </Link>
             <svg
               width="24"
               height="24"
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
-              className="my-auto arrow-right"
+              className="my-auto arrow-right mt-[5px]"
             >
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
@@ -111,7 +115,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

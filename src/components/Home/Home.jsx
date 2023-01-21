@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Social from "../SocialIcons/Social";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="text-center 2xl:mt-4 2xl:overflow-hidden">
+    <motion.div
+      className="text-center 2xl:mt-4 2xl:overflow-hidden"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="grid md:max-w-[900px] 2xl:h-full w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12 2xl:mt-24">
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
@@ -39,20 +46,17 @@ const Home = () => {
             o mandarme un Mail a{" "}
             <b className="bold-text-2">javier.cavalli@gmail.com</b>
           </p>
-          <div className="flex">
-            <a
-              href="about"
-              className="home-subtitulo text-1xl mb-2 p-3 underline my-2"
-            >
+          <div className="flex text-1xl mb-2 p-3 underline my-2">
+            <Link to="/about" className="mr-3">
               Mas Sobre Mi
-            </a>
+            </Link>
             <svg
               width="24"
               height="24"
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
-              className="my-auto arrow-right"
+              className="my-auto arrow-right mt-[5px]"
             >
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
@@ -62,7 +66,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
