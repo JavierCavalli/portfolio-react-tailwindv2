@@ -4,8 +4,8 @@ import { AiOutlineMail, AiOutlineFileText } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <div className="text-center">
-      <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
+    <div className="text-center 2xl:overflow-none">
+      <div className="grid md:max-w-[900px] w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-4 p-3 2xl:justify-start ">
             <h1 className="">Contacto.</h1>
