@@ -13,17 +13,17 @@ const Home = () => {
               <span aria-hidden="true">Javier Cavalli . FrontDev</span>
             </h1>
           </div>
-          <p className="home-subtitulo mb-5 p-3">
+          <p className="home-subtitulo mb-2 p-3">
             Frontend developer, Diseñador de UX/UI y Ingeniero de JavaScript,
             Photochromic Lens enthusiast, practicing minimalist, and Pop Music &
             Jazz lover in search of flow.
           </p>
-          <p className="home-subtitulo mb-5 p-3">
+          <p className="home-subtitulo mb-2 p-3">
             Working with my hands to make magic happen on the internet. View my
             Projects, Articles, Resumé, Contact Me, or send me an email at
             hellocodewonders@gmail.com.
           </p>
-          <p className="home-subtitulo mb-5 p-3">
+          <p className="home-subtitulo mb-2 p-3">
             Working with my hands to make magic happen on the internet. View my
             Projects, Articles, Resumé, Contact Me, or send me an email at
             hellocodewonders@gmail.com.
@@ -31,7 +31,7 @@ const Home = () => {
           <div className="flex">
             <a
               href="about"
-              className="home-subtitulo text-1xl mb-5 p-3 underline my-4"
+              className="home-subtitulo text-1xl mb-2 p-3 underline my-2"
             >
               Mas Sobre Mi
             </a>
@@ -46,7 +46,7 @@ const Home = () => {
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 mb-4">
             <Social />
           </div>
         </div>
