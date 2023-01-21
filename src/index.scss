@@ -215,8 +215,8 @@ $blueColor: rgba(33, 150, 243, 1);
 
 .icon-3d {
   padding: 10px;
-  -webkit-animation: icon3d 300ms 10;
-  animation: icon3d 300ms 10;
+  -webkit-animation: icon3d 300ms 2;
+  animation: icon3d 300ms 2;
   color: rgb(0, 0, 0);
   &:hover {
     -webkit-animation: icon3d 300ms infinite;
