@@ -25,6 +25,11 @@ const Home = () => {
             Projects, Articles, Resumé, Contact Me, or send me an email at
             hellocodewonders@gmail.com.
           </p>
+          <p className="home-subtitulo mb-5 p-3">
+            Working with my hands to make magic happen on the internet. View my
+            Projects, Articles, Resumé, Contact Me, or send me an email at
+            hellocodewonders@gmail.com.
+          </p>
           <div className="flex">
             <a
               href="about"
