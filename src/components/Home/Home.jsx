@@ -32,17 +32,17 @@ const Home = () => {
             De momento me encuentro aprendiendo Backend SQL y
             noSQL(firebase/mongo) Avanzado y animaciones complejas con GSAP, los
             invito a ver algunos de mis{" "}
-            <a href="proyectos">
+            <Link to="proyectos">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
                 Proyectos
-              </button>
-            </a>{" "}
+              </button>{" "}
+            </Link>
             mi{" "}
-            <a href="proyectos">
+            <Link to="contact">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
                 Contacto
               </button>
-            </a>{" "}
+            </Link>{" "}
             o mandarme un Mail a{" "}
             <b className="bold-text-2">javier.cavalli@gmail.com</b>
           </p>
@@ -56,7 +56,7 @@ const Home = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
-              className="my-auto arrow-right mt-[5px]"
+              className="my-auto arrow-right "
             >
               <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
             </svg>
