@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     /* MEMU */
     <div className="flex w-full h-full mt-2 px-3 justify-between md:justify-around md:mt-8 bg-[#ffffff] text-[#000000]">
-      <a href="/" className="titulo text-4xl">
+      <Link to="/" className="titulo text-4xl">
         JC.
-      </a>
+      </Link>
 
       {/* menu */}
       <ul className="hidden md:flex">
