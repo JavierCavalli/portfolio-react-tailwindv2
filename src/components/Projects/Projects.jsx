@@ -97,7 +97,7 @@ const Projects = () => {
           </div>
           <div className="flex text-1xl mb-2 p-4 underline my-2">
             <Link to="/contact" className="mr-3">
-              Ver Proyectos
+              Contacto
             </Link>
             <svg
               width="24"
