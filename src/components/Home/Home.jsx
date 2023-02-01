@@ -23,11 +23,10 @@ const Home = () => {
           <p className="home-subtitulo mb-2 p-3">
             FullStack developer, Diseñador UX/UI y Ingeniero JavaScript con dos
             años de experiencia implementando aplicaciones Web. Me especializo
-            en JavaScript y TypeScript principalmente en el framework React y
-            NextJS, para los estilos se usar CSS, SASS, Bootstrap, Tailwind,
-            librerias de animacion como FramerMotion Y GSAP y para el
-            maquetado/diseño Figma. Para el Backend se usar SQL y
-            MongoDB/FireBase(noSQL)
+            en JavaScript y TypeScript principalmente en el framework React,
+            para los estilos se usar CSS, SASS, Bootstrap, Tailwind, librerias
+            de animacion como FramerMotion Y GSAP y para el maquetado/diseño
+            Figma. Para el Backend se usar SQL, MongoDB y FireBase.
           </p>
           <p className="home-subtitulo mb-2 p-3">
             Los invito a ver algunos de mis{" "}
