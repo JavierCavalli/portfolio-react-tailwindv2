@@ -21,17 +21,17 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            Frontend developer, Diseñador UX/UI y Ingeniero JavaScript, con dos
+            FullStack developer, Diseñador UX/UI y Ingeniero JavaScript con dos
             años de experiencia implementando aplicaciones Web. Me especializo
-            en en JavaScript y TypeScript, principalmente en el framework
-            React(tambien NextJS), para los estilos se usar CSS, SASS,
-            Bootstrap, Tailwind, librerias de animacion como FramerMotion Y GSAP
-            y para el maquetado/diseño de las mismas Figma.
+            en JavaScript y TypeScript principalmente en el framework React y
+            NextJS, para los estilos se usar CSS, SASS, Bootstrap, Tailwind,
+            librerias de animacion como FramerMotion Y GSAP y para el
+            maquetado/diseño Figma. Para el Backend se usar SQL y
+            MongoDB/FireBase(noSQL)
           </p>
           <p className="home-subtitulo mb-2 p-3">
-            De momento me encuentro aprendiendo Backend SQL y
-            noSQL(firebase/mongo) Avanzado y animaciones complejas con GSAP, los
-            invito a ver algunos de mis{" "}
+            En este momento me encuentro aprendiendo Python, los invito a ver
+            algunos de mis{" "}
             <Link to="proyectos">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
                 Proyectos

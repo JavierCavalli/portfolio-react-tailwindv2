@@ -57,6 +57,10 @@ const About = () => {
                 -Complete React Dev (Redux, Hooks, GraphQL) - Udemy Andrei
                 Neagoie
               </li>
+              <li>
+                -Complete Next.js Developer: Zero to Mastery - Udemy Andrei
+                Neagoie
+              </li>
               <li>-Full Bootcamp FreeCodeCamp</li>
               <li>-Argentina Programa #YoPprogramo / #SeProgramar 2022</li>
               <li>-B2 First (Nivel C1 - Ingles Nativo)</li>
