@@ -30,8 +30,7 @@ const Home = () => {
             MongoDB/FireBase(noSQL)
           </p>
           <p className="home-subtitulo mb-2 p-3">
-            En este momento me encuentro aprendiendo Python, los invito a ver
-            algunos de mis{" "}
+            Los invito a ver algunos de mis{" "}
             <Link to="proyectos">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
                 Proyectos
