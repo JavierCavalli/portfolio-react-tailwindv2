@@ -1,6 +1,21 @@
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Queria actualizar mi portfolio tome inspiracion de algunos proyectos que vi de framer motion, si alguien lo quiere usar para si mismo antes por favor pedir permiso.
+
+## Built With: 
+
+1. React (router dom / useState / useEffect)
+2. Framer Motion
+3. SASS
+4. TAILWIND
+5. GSAP
+6. Font Awesome
+7. Hamburguer React
+
+## Demo: 
+
+https://portfolio-react-tailwindv2.vercel.app/
 
 ## Available Scripts
 
@@ -68,3 +83,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
