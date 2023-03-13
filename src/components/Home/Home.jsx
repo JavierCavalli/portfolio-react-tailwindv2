@@ -21,12 +21,13 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            FullStack developer, Diseñador UX/UI y Ingeniero JavaScript con dos
-            años de experiencia implementando aplicaciones Web. Me especializo
-            en JavaScript y TypeScript principalmente en el framework React,
-            para los estilos se usar CSS, SASS, Bootstrap, Tailwind, librerias
-            de animacion como FramerMotion Y GSAP y para el maquetado/diseño
-            Figma. Para el Backend se usar SQL, MongoDB y FireBase.
+          FullStack developer con tres años de experiencia, me especializo en
+          JavaScript, principalmente en el framework ReactJS, para los estilos se
+          usar CSS, SASS, Bootstrap, TailwindCSS, librerias de animacion como
+          FramerMotion/Gsap y para el Backend se usar MySQL, Mongodb y Firebase.
+          Actualmente me encuentro trabajando para Fit Prenda, una aplicación
+          de talles Argentina como Front end Developer y me encuentro en
+          constante aprendizaje.
           </p>
           <p className="home-subtitulo mb-2 p-3">
             Los invito a ver algunos de mis{" "}

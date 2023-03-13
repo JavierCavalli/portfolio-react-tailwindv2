@@ -31,16 +31,15 @@ const About = () => {
             Trabajo
           </p>
           <p className="home-subtitulo-sub pl-3 text-start underline 2xl:text-center">
-            <a href="https://github.com/JavierCavalli">Ver Github</a>
+            <a className="see-github" href="https://github.com/JavierCavalli">Ver Github</a>
           </p>
           <p className="home-subtitulo mb-5 pl-3 pr-3 2xl:w-[1000px]">
-            Empecé a trabjar como freelance hace 2 años haciendo SPA con el
+            Empecé a trabjar como freelance hace 3 años haciendo SPA con el
             stack FERN/MERN en las plataformas Fiverr y Upwork, hoy me encuentro
             trabajando para FitPrenda una empresa de talles argentina donde me
-            ocupo del frontend en la cual uso principalmente <b>React</b>,{" "}
-            <b>Typescript</b>, <b>Bootstrap</b> y <b>CSS</b>. Estoy buscando
-            nuevos desafios y estudiando nuevas tecnologias para seguir
-            formandome.
+            ocupo del frontend y la implementacion de nuevas funcionalidades,
+            en la cual uso principalmente <b>ReactJS</b>,{" "}
+            <b>Typescript</b>, <b>Bootstrap</b> y <b>CSS</b>. 
           </p>
           <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-end">
             Estudios
@@ -50,8 +49,9 @@ const About = () => {
           </p>
           <div className="home-subtitulo mb-5 pl-3">
             <ul className="text-start 2xl:text-end">
-              <li>-Diplomatura full stack ReactJS y SQL - UTN</li>
-              <li>-Complete web development Bootcamp - Udemy Angela Yu</li>
+              <li>-UADE - Tecnicatura en Desarrollo de Software (Sistemas) - cursando actualmente</li>
+              <li>-Diplomatura full stack (ReactJS / SQL) - UTN</li>
+              <li>-Complete web development Bootcamp - Udemy Angela Yu (JS/React/Mongo/REST API) </li>
               <li>-Complete Javascript Course - Udemy Jonas Schmedtmann</li>
               <li>
                 -Complete React Dev (Redux, Hooks, GraphQL) - Udemy Andrei
@@ -61,8 +61,13 @@ const About = () => {
                 -Complete Next.js Developer: Zero to Mastery - Udemy Andrei
                 Neagoie
               </li>
-              <li>-Full Bootcamp FreeCodeCamp</li>
-              <li>-Argentina Programa #YoPprogramo / #SeProgramar 2022</li>
+              <li>
+                -React 101 - Code Acadey
+              </li>
+              <li>-Full Bootcamp FreeCodeCamp(JS/React/D3/Mongo/QA/Python data Analysis)</li>
+              <li>-The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert - Udemy Colt Steel</li>
+              <li>-Argentina Programa (2022) #SéProgramar y #YoProgramo (Angular / SQL)</li>
+              <li>-Argentina Programa (2023) Fullstack BootCamp (VueJS / Firebase)</li>
               <li>-B2 First (Nivel C1 - Ingles Nativo)</li>
             </ul>
           </div>
