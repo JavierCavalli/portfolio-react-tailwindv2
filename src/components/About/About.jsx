@@ -37,7 +37,7 @@ const About = () => {
             Empecé a trabjar como freelance hace 3 años haciendo SPA con el
             stack FERN/MERN en las plataformas Fiverr y Upwork, hoy me encuentro
             trabajando para FitPrenda una empresa de talles argentina donde me
-            ocupo del frontend y la implementacion de nuevas funcionalidades,
+            ocupo del frontend y la implementacion de nuevas funcionalidades
             en la cual uso principalmente <b>ReactJS</b>,{" "}
             <b>Typescript</b>, <b>Bootstrap</b> y <b>CSS</b>. 
           </p>

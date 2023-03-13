@@ -26,8 +26,7 @@ const Home = () => {
           usar CSS, SASS, Bootstrap, TailwindCSS, librerias de animacion como
           FramerMotion y para el Backend se usar MySQL, Mongodb y Firebase.
           Actualmente me encuentro trabajando para Fit Prenda, una aplicación
-          de talles Argentina como Front end Developer y me encuentro en
-          constante aprendizaje.
+          de talles Argentina como Front end Developer.
           </p>
           <p className="home-subtitulo mb-2 p-3">
             Los invito a ver algunos de mis{" "}
