@@ -18,7 +18,7 @@ const Social = () => {
       <a href="mailto:javier.cavalli@com">
         <i class="fas fa-regular fa-envelope fa-lg icon-3d"></i>
       </a>
-      <a href="https://www.docdroid.net/hODbwXB/javier-cavalli-curriculum-pdf">
+      <a href="https://www.docdroid.net/gUWLxbe/javiercavallicv-pdf">
         <i class="fas fa-solid fa-file-pdf fa-lg icon-3d"></i>
       </a>
     </div>
