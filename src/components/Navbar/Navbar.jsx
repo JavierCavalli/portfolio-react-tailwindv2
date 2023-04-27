@@ -8,8 +8,13 @@ const Navbar = () => {
 
   const handleClick = () => setNav(!nav);
 
+  const closeMenu = () => {
+    setNav(false);
+    setOpen(false);
+  };
+
   return (
-    /* MEMU */
+    /* MENU */
     <div className="flex w-full h-full mt-2 px-3 justify-between md:justify-around md:mt-8 bg-[#ffffff] text-[#000000]">
       <Link to="/" className="titulo text-4xl">
         JC.
@@ -45,25 +50,22 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="/">
+          <Link onClick={closeMenu} to="/">
             Inicio
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="about">
+          <Link onClick={closeMenu} to="about">
             Sobre mi
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="proyectos">
+          <Link onClick={closeMenu} to="proyectos">
             Proyectos
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="contact">
+          <Link onClick={closeMenu} to="contact">
             Contacto
           </Link>
         </li>

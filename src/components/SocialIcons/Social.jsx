@@ -20,7 +20,7 @@ const Social = () => {
       </a>
       <a href="https://www.docdroid.net/gUWLxbe/javiercavallicv-pdf">
         <i class="fas fa-solid fa-file-pdf fa-lg icon-3d"></i>
-      </a>
+     </a>
     </div>
   );
 };
