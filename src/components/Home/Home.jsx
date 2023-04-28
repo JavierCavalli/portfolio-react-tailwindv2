@@ -15,18 +15,18 @@ const Home = () => {
         <div className="">
           <div className="flex mx-auto glitch home-titulo text-5xl text-start justify-center md:justify-start mb-5 p-3">
             <h1 className="glitch">
-              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
-              Javier Cavalli . FrontDev
-              <span aria-hidden="true">Javier Cavalli . FrontDev</span>
+              <span aria-hidden="true">Javier Cavalli . {"<Dev />"}</span>
+              Javier Cavalli . {"<Dev />"}
+              <span aria-hidden="true">Javier Cavalli . {"<Dev />"}</span>
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-          FullStack developer con tres años de experiencia, me especializo en
-          JavaScript, principalmente en el framework ReactJS, para los estilos se
-          usar CSS, SASS, Bootstrap, TailwindCSS, librerias de animacion como
-          FramerMotion y para el Backend se usar MySQL, Mongodb y Firebase.
-          Actualmente me encuentro trabajando para Fit Prenda, una aplicación
-          de talles Argentina como Front end Developer.
+            FullStack developer con tres años de experiencia, me especializo en
+            JavaScript, principalmente en el framework ReactJS, para los estilos
+            se usar CSS, SASS, Bootstrap, TailwindCSS, librerias de animacion
+            como FramerMotion y para el Backend se usar MySQL, Mongodb y
+            Firebase. Actualmente me encuentro trabajando para Fit Prenda, una
+            aplicación de talles Argentina como Front end Developer.
           </p>
           <p className="home-subtitulo mb-2 p-3">
             Los invito a ver algunos de mis{" "}
