@@ -14,11 +14,11 @@ const Contact = () => {
       <div className="grid md:max-w-[900px] w-full h-full justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-4 p-3 2xl:justify-start ">
-            <h1 className="">Contacto.</h1>
+            <h1 className="">Contact.</h1>
           </div>
           <p className="home-subtitulo mb-5 p-3 ">
-            Para contactarte conmigo me podes mandar un mensaje en esta sección
-            o mandarme un mail a{" "}
+            If you wish to get in touch with me, you can send me a message in
+            this section or an email at:{" "}
             <span className="bold-text">javier.cavalli@gmail.com</span>
           </p>
           {/* ACA ARRANCA EL FORM */}
@@ -65,7 +65,7 @@ const Contact = () => {
           {/* ACA TERMINA EL FORM */}
           <div className="flex text-1xl mb-2 p-4 underline my-2">
             <Link to="/" className="mr-3">
-              Inicio
+              Home
             </Link>
             <svg
               width="24"

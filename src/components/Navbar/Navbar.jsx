@@ -23,16 +23,16 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
-          <Link to="/">Inicio</Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
-          <Link to="about">Sobre mi</Link>
+          <Link to="about">About</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
-          <Link to="proyectos">Proyectos</Link>
+          <Link to="proyectos">Projects</Link>
         </li>
         <li className="px-4 cursor-pointer text-[25px] hover-underline-animation">
-          <Link to="contact">Contacto</Link>
+          <Link to="contact">Contact</Link>
         </li>
       </ul>
 
@@ -51,22 +51,22 @@ const Navbar = () => {
       >
         <li className="py-6 text-4xl">
           <Link onClick={closeMenu} to="/">
-            Inicio
+            Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={closeMenu} to="about">
-            Sobre mi
+            About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={closeMenu} to="proyectos">
-            Proyectos
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={closeMenu} to="contact">
-            Contacto
+            Contact
           </Link>
         </li>
       </ul>

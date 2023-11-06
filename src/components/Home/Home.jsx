@@ -21,32 +21,41 @@ const Home = () => {
             </h1>
           </div>
           <p className="home-subtitulo mb-2 p-3">
-            FullStack developer con tres años de experiencia, me especializo en
-            JavaScript, principalmente en el framework ReactJS, para los estilos
-            se usar CSS, SASS, Bootstrap, TailwindCSS, librerias de animacion
-            como FramerMotion y para el Backend se usar MySQL, Mongodb y
-            Firebase. Actualmente me encuentro trabajando para Fit Prenda, una
-            aplicación de talles Argentina como Front end Developer.
+            FullStack developer with three years of experience currently working
+            for{" "}
+            <a
+              className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]"
+              href="https://readysize.ai/"
+            >
+              ReadySize
+            </a>
+            , I specialize in JavaScript, primarily in the ReactJS framework.
+            For styling i can work with CSS, SASS, Bootstrap & TailwindCSS, i've
+            worked with animation libraries such as FramerMotion or Gsap. For
+            the backend i use MySQL(with node and express), i have also done
+            some small projects with MongoDB, and Firebase (noSQL).
           </p>
           <p className="home-subtitulo mb-2 p-3">
-            Los invito a ver algunos de mis{" "}
+            Here are some of my{" "}
             <Link to="proyectos">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
-                Proyectos
+                Projects
               </button>{" "}
             </Link>
-            mi{" "}
+            and my{" "}
             <Link to="contact">
               <button className="px-4 py-1 bg-[#e5e5e5] text-[#454545] font-bold text-xs leading-tight rounded shadow-md hover:bg-[#000000] hover:text-[#FFFFFF] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-350 ease-in-out pt-[8px] pb-[4px]">
-                Contacto
+                Contact
               </button>
-            </Link>{" "}
-            o mandarme un Mail a{" "}
+            </Link>
+            {" info"}
+            <br />
+            you can send me an email at:{" "}
             <b className="bold-text-2">javier.cavalli@gmail.com</b>
           </p>
           <div className="flex text-1xl mb-2 p-3 underline my-2">
             <Link to="/about" className="mr-3">
-              Mas Sobre Mi
+              About
             </Link>
             <svg
               width="24"

@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="grid md:max-w-[1000px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
-            <h1 className="">Proyectos.</h1>
+            <h1 className="">Projects.</h1>
           </div>
           <div className="grid grid-cols-1 md:gap-8 p-4 md:grid-cols-2 2xl:grid-cols-3 gap-y-8">
             {/* PROYECTO 1 */}
@@ -35,7 +35,7 @@ const Projects = () => {
               img={project1}
               github="https://github.com/JavierCavalli/clothingapp-react"
               demo="https://gilded-brioche-5ea112.netlify.app/"
-              text="E-Commerce Store para la compra venta de vestimenta."
+              text="E-Commerce Store where i learned how to use Redux, Styled Components and Stripe as paying method."
             />
             <Card
               title="Data"
@@ -43,7 +43,7 @@ const Projects = () => {
               img={project2}
               github="https://github.com/JavierCavalli/react-tw-data-app-main"
               demo="https://merry-cascaron-69cc7f.netlify.app/"
-              text="Data App para compras de analiticas de tu sitio."
+              text="Data App SPA made with ReactJS and TailwindCSS."
             />
             <Card
               title="Crypto"
@@ -51,7 +51,7 @@ const Projects = () => {
               img={project3}
               github="https://github.com/JavierCavalli/crypto-react-firebase-main"
               demo="https://crypto-react-firebase-main.vercel.app/"
-              text="Aplicacion con las top 10 cryptos diarias y favoritos de usuario"
+              text="Crypto App made to learn how to Fetch Data with Axios from FireBase"
             />
             <Card
               title="Orion"
@@ -59,7 +59,7 @@ const Projects = () => {
               img={project4}
               github="https://github.com/JavierCavalli/agencia-react-main"
               demo="https://agenciavuelo-react-main.vercel.app/"
-              text="Agencia de vuelo Aero Espacial"
+              text="SPA App made to learn React-Router"
             />
             <Card
               title="Crypto"
@@ -67,7 +67,7 @@ const Projects = () => {
               img={project5}
               github="https://github.com/JavierCavalli/Crypto-landingpage-main"
               demo="https://incomparable-crumble-735f3a.netlify.app/"
-              text="Una App de compra/venta de crypto"
+              text="Another Crypto App to better understand React Hooks"
             />
             <Card
               title="Expense"
@@ -75,7 +75,7 @@ const Projects = () => {
               img={project6}
               github="https://github.com/JavierCavalli/expense-tracker-react-main"
               demo="https://aquamarine-nasturtium-4bf446.netlify.app/"
-              text="Una app para calcular tus gastos mensuales"
+              text="Expense Tracker app made to practice JavaScrip/React logic (state, events, context, etc)"
             />
             <Card
               title="Shoes"
@@ -83,7 +83,7 @@ const Projects = () => {
               img={project7}
               github="https://github.com/JavierCavalli/Landing-page-brand"
               demo="https://landing-page-brand.vercel.app/"
-              text="App de Calzados"
+              text="Shoe Store App made to test CSS media queries"
             />
             <Card
               title="Dark/Light"
@@ -91,13 +91,13 @@ const Projects = () => {
               img={project8}
               github="https://github.com/JavierCavalli/dark-theme-main"
               demo="https://spontaneous-travesseiro-fade16.netlify.app/"
-              text="Toggle de modo dark y light"
+              text="App made to test a Dark/Light Theme with ReactJS"
             />
             {/* PROYECTO 1 FIN */}
           </div>
           <div className="flex text-1xl mb-2 p-4 underline my-2">
             <Link to="/contact" className="mr-3">
-              Contacto
+              Contact
             </Link>
             <svg
               width="24"

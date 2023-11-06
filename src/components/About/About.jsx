@@ -25,40 +25,43 @@ const About = () => {
       <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
           <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
-            <h1 className="">Sobre Mi.</h1>
+            <h1 className="">About.</h1>
           </div>
           <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-center">
-            Trabajo
+            Work
           </p>
           <p className="home-subtitulo-sub pl-3 text-start underline 2xl:text-center">
             <a className="see-github" href="https://github.com/JavierCavalli">
-              Ver Github
+              See Github
             </a>
           </p>
           <p className="home-subtitulo mb-5 pl-3 pr-3 2xl:w-[1000px]">
-            Empecé a trabjar como freelance hace 3 años haciendo SPA con el
-            stack FERN/MERN en las plataformas Fiverr y Upwork, hoy me encuentro
-            trabajando para FitPrenda una empresa de talles argentina donde me
-            ocupo del frontend y la implementacion de nuevas funcionalidades en
-            la cual uso principalmente <b>ReactJS</b>, <b>Typescript</b>,{" "}
-            <b>Bootstrap</b> y <b>CSS</b>.
+            I began working freelance 3 years ago doing single page application
+            websites on fiverr and upwork, i was then hired by ReadySize as a
+            front end developer, i had to migrate both the main application and
+            admin dashboard from Angular to ReactJS based on a Figma prototype,
+            in both projects i used <b>Typescript</b>, <b>Bootstrap</b> &{" "}
+            <b>CSS</b>, i then integrated the GPT api to use it as a personal
+            assistant, right now i'm doing the localization for different
+            languages with FormatJS and working with ReactJS context in order to
+            have a better management of the state and data of both projects.
           </p>
           <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-end">
-            Estudios
+            Studies
           </p>
           <p className="home-subtitulo-sub pl-3 text-start underline 2xl:text-end">
-            Certificaciones / Cursos{" "}
+            Courses & Certifications{" "}
           </p>
           <div className="home-subtitulo mb-5 pl-3">
             <ul className="text-start 2xl:text-end">
               <li>
-                -UADE - Tecnicatura en Desarrollo de Software (Sistemas) -
-                cursando actualmente
+                -UADE - Technical Degree in Software Development (Systems) -
+                currently in progress
               </li>
-              <li>-Diplomatura full stack (ReactJS / SQL) - UTN</li>
+              <li>-College degree (ReactJS / MySQL) - UTN</li>
               <li>
                 -Complete web development Bootcamp - Udemy Angela Yu
-                (JS/React/Mongo/REST API){" "}
+                (HTML/CSS/JS/ReactJS/Mongo/REST API){" "}
               </li>
               <li>-Complete Javascript Course - Udemy Jonas Schmedtmann</li>
               <li>
@@ -71,7 +74,7 @@ const About = () => {
               </li>
               <li>-React 101 - Code Acadey</li>
               <li>
-                -Full Bootcamp FreeCodeCamp(JS/React/D3/Mongo/QA/Python data
+                -Full Bootcamp FreeCodeCamp(JS/ReactJS/D3/Mongo/QA/Python data
                 Analysis)
               </li>
               <li>
@@ -85,18 +88,20 @@ const About = () => {
               <li>
                 -Argentina Programa (2023) Fullstack BootCamp (VueJS / Firebase)
               </li>
-              <li>-B2 First (Nivel C1 - Ingles Nativo)</li>
+              <li>-B2 First (C1 Level)</li>
             </ul>
           </div>
-          <p className="home-subtitulo-titulo pl-3 text-start">Tecnologias</p>
+          <p className="home-subtitulo-titulo pl-3 text-start">
+            Languages & Frameworks
+          </p>
           <p className="home-subtitulo-sub pl-3 text-start underline">
-            Tecnologias que uso con frecuencia{" "}
+            Languages & Frameworks i use frequently{" "}
           </p>
           <div className="text-base test-start grid pl-3 ">
             <div className="row flex gap-4">
               <div className="col flex ">
                 <SiReact className="mt-1" />
-                React
+                ReactJS
               </div>
               <div className="col flex">
                 <IoLogoJavascript className="mt-1" />
@@ -152,7 +157,7 @@ const About = () => {
           </div>
           <div className="flex text-1xl mb-2 p-3 underline my-2">
             <Link to="/proyectos" className="mr-3">
-              Ver Proyectos
+              Projects
             </Link>
             <svg
               width="24"

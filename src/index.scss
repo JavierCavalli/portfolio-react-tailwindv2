@@ -253,6 +253,7 @@ $blueColor: rgba(33, 150, 243, 1);
 .hover-underline-animation {
   display: inline-block;
   position: relative;
+  margin-top: -10px;
 }
 
 .hover-underline-animation::before {
