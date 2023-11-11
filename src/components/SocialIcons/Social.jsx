@@ -6,7 +6,7 @@ const Social = () => {
       <a href="https://github.com/JavierCavalli">
         <i class="fa fa-github fa-lg icon-3d"></i>
       </a>
-      <a href="https://www.linkedin.com/in/javier-cavalli-050734228/">
+      <a href="https://www.linkedin.com/in/javier-c-050734228/">
         <i
           class="fa fa-linkedin
        fa-lg icon-3d"
@@ -18,7 +18,7 @@ const Social = () => {
       <a href="mailto:javier.cavalli@gmail.com">
         <i class="fas fa-regular fa-envelope fa-lg icon-3d"></i>
       </a>
-      <a href="https://www.docdroid.net/945Orh0/javiercavallicv-pdf">
+      <a href="https://www.docdroid.net/NXpi2Mh/javiercavallicurriculum-pdf">
         <i class="fas fa-solid fa-file-pdf fa-lg icon-3d"></i>
       </a>
     </div>
