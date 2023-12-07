@@ -24,18 +24,18 @@ const About = () => {
     >
       <div className="grid md:max-w-[900px] w-full h-screen justify-center mx-auto bg-[#ffffff] mt-8 md:mt-12">
         <div className="">
-          <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-3 2xl:justify-center">
+          <div className="flex mx-auto home-titulo text-5xl text-start justify-start md:justify-start mb-10 p-5 2xl:justify-center">
             <h1 className="">About.</h1>
           </div>
-          <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-center">
+          <p className="home-subtitulo-titulo pl-5 text-start 2xl:text-center">
             Work
           </p>
-          <p className="home-subtitulo-sub pl-3 text-start underline 2xl:text-center">
+          <p className="home-subtitulo-sub pl-5 text-start underline 2xl:text-center">
             <a className="see-github" href="https://github.com/JavierCavalli">
               See Github
             </a>
           </p>
-          <p className="home-subtitulo mb-5 pl-3 pr-3 2xl:w-[1000px]">
+          <p className="home-subtitulo mb-5 pl-5 pr-5 2xl:w-[1000px]">
             I began working freelance 3 years ago doing single page application
             websites on fiverr and upwork, i was then hired by ReadySize as a
             front end developer, i had to migrate both the main application and
@@ -46,13 +46,13 @@ const About = () => {
             languages with FormatJS and working with ReactJS context in order to
             have a better management of the state and data of both projects.
           </p>
-          <p className="home-subtitulo-titulo pl-3 text-start 2xl:text-end">
+          <p className="home-subtitulo-titulo pl-5 text-start 2xl:text-end">
             Studies
           </p>
-          <p className="home-subtitulo-sub pl-3 text-start underline 2xl:text-end">
+          <p className="home-subtitulo-sub pl-5 text-start underline 2xl:text-end">
             Courses & Certifications{" "}
           </p>
-          <div className="home-subtitulo mb-5 pl-3">
+          <div className="home-subtitulo mb-5 pl-5">
             <ul className="text-start 2xl:text-end">
               <li>
                 -UADE - Technical Degree in Software Development (Systems) -
@@ -91,13 +91,13 @@ const About = () => {
               <li>-B2 First (C1 Level)</li>
             </ul>
           </div>
-          <p className="home-subtitulo-titulo pl-3 text-start">
+          <p className="home-subtitulo-titulo pl-5 text-start">
             Languages & Frameworks
           </p>
-          <p className="home-subtitulo-sub pl-3 text-start underline">
+          <p className="home-subtitulo-sub pl-5 text-start underline">
             Languages & Frameworks i use frequently{" "}
           </p>
-          <div className="text-base test-start grid pl-3 ">
+          <div className="text-base test-start grid pl-5 ">
             <div className="row flex gap-4">
               <div className="col flex ">
                 <SiReact className="mt-1" />
