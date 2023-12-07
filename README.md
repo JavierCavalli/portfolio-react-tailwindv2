@@ -1,7 +1,7 @@
 
 # Getting Started with Create React App
 
-Queria actualizar mi portfolio viejo, para hacerlo tome inspiracion de algunos proyectos hechos con framer motion, si alguien lo quiere usar antes por favor pedir permiso.
+An Update on my Old Portfolio
 
 ## Built With: 
 
