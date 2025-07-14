@@ -17,7 +17,7 @@ Demo: https://javiercavalli-porfolio.vercel.app/
 
 ## Demo: 
 
-[https://portfolio-react-tailwindv2.vercel.app/](https://javier-cavalli-portfolio.vercel.app/)
+No longer working-
 
 ## Available Scripts
 
