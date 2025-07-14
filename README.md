@@ -3,7 +3,7 @@
 
 An Update on my Old Portfolio
 
-Demo: https://javiercavalli-porfolio.vercel.app/
+Demo: No longer Workin
 
 ## Built With: 
 
@@ -14,10 +14,6 @@ Demo: https://javiercavalli-porfolio.vercel.app/
 5. GSAP
 6. Font Awesome
 7. Hamburguer React
-
-## Demo: 
-
-No longer working-
 
 ## Available Scripts
 
